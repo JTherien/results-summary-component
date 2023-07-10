@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    
+    <link rel="stylesheet" type="text/css" href="./styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <script src="./js/data.js"></script>
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="widget">
+
+        <div class="result">
+          <h1>Your Result</h1>
+          <div class="circle-container">
+            <div class="circle"><div class="score">76</div><p>of 100</p></div>
+          </div>
+          <div class="comment">
+            <h2>Great</h2>
+            <p>You scored higher than 65% of the people who have
+            taken these tests.</p>
+          </div>
+        </div>
+
+        <div class="summary">
+          <h1>Summary</h1>
+          <div class="metric reaction">
+            <img src="./assets/images/icon-reaction.svg" id="reaction-img" alt="Reaction Results">
+            <div class="m-label">Reaction</div> 
+            <div class="m-score" id="reaction-score">##</div>
+            <div class="m-total">/ 100</div>
+          </div>
+          
+          <div class="metric memory">
+            <img src="./assets/images/icon-memory.svg" id="memory-img" alt="Memory Results">
+            <div class="m-label">Memory</div>
+            <div class="m-score" id="memory-score">##</div>
+            <div class="m-total">/ 100</div>
+          </div>
+
+          <div class="metric verbal">
+            <img src="./assets/images/icon-verbal.svg" id="verbal-img" alt="Verbal Results">
+            <div class="m-label">Verbal</div>
+            <div class="m-score" id="verbal-score">##</div>
+            <div class="m-total">/ 100</div>
+          </div>
+
+          <div class="metric visual">
+            <img src="./assets/images/icon-visual.svg" id="visual-img" alt="Visual Results">
+            <div class="m-label">Visual</div>
+            <div class="m-score" id="visual-score">##</div>
+            <div class="m-total">/ 100</div>
+          </div>
+          
+          <div class="continue">Continue</div>
+        </div>
+      </div>
+      
+      <div class="attribution">
+        Challenge by&nbsp;
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by&nbsp;<a href="https://github.com/JTherien">JTherien</a>.
+      </div>
+    </div>
+  </body>
+</html>
